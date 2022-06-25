@@ -72,12 +72,12 @@ img {
     font-size: 1.125rem;
 }
 #home {
-    background-image: url(../images/1.jpg);
+    background-image: url(1.jpg);
     background-position: center top;
 }
 /*---------------------- contact ----------------------*/
 #contact {
-    background-image: url(../images/2.jpg);
+    background-image: url(2.jpg);
     min-height: 100vh;
 }
 
