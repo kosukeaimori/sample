@@ -1,0 +1,115 @@
+@charset "utf-8";
+/*---------------------- 共通 ----------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1100px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+.page-title {
+    font-size: 5rem;
+    font-family: 'philosopher', serif;
+    font-weight: normal;
+}
+.btn {
+    font-size: 1.375rem;
+    background: #0bd;
+    border-radius: 5px;
+    padding: 18px 36px;
+    color: #fff;
+}
+.btn:hover {
+    background: #0099aa;
+}
+.big-bg {
+    background-size: cover;
+    min-height: 100vh;
+}
+/*---------------------- HEADER ----------------------*/
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
+.main-nav {
+    display: flex;
+    margin-top: 34px;
+    list-style: none;
+    font-size: 1.125rem;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+/*---------------------- home-content ----------------------*/
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    margin: 12px 0 42px;
+    font-size: 1.125rem;
+}
+#home {
+    background-image: url(../images/1.jpg);
+    background-position: center top;
+}
+/*---------------------- contact ----------------------*/
+#contact {
+    background-image: url(../images/2.jpg);
+    min-height: 100vh;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255, 255, 255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"], {
+    width: 100%;
+    max-width: 240px;
+}
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
